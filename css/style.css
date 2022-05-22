@@ -138,11 +138,33 @@ a {
   height: 25px;
   border-radius: 7px;
   cursor: pointer;
+  transition: all .3s;
 }
 
-/* BG color for active slider */
+/* BG color for active slider and hover */
 
 .slick-active button,
 .slick-dots button:hover {
   background-color: #ff4040;
+}
+
+.bike__list{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.bike__list-item {
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: 160px;
+  text-align: center;
+}
+
+.bike__list-item span{
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
 }
