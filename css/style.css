@@ -190,6 +190,7 @@ a {
 .info__img{
   margin-right: 60px;
   flex-basis: 570px;
+  object-fit: cover;
 }
 
 .info__list{
