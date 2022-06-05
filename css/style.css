@@ -269,4 +269,6 @@ p {
 
 /* Bottom slider  */
 
-
+.slider{
+  margin-bottom: 50px;  
+}
