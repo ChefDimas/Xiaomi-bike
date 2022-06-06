@@ -111,10 +111,10 @@ p {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1.1em;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.bike__link:hover{
+.bike__link:hover {
   background-color: #ff4040;
 }
 
@@ -224,7 +224,6 @@ p {
 /* Characteristics Section */
 
 .characteristics {
-
   padding-top: 150px;
 }
 
@@ -422,43 +421,43 @@ p {
   font-size: 20px;
   line-height: 24px;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.form__btn:hover{
+.form__btn:hover {
   background-color: #ff4040;
 }
 
-.footer{
+.footer {
   background-color: #131313;
   color: #fff;
   min-height: 100px;
   margin-top: 150px;
 }
 
-.footer__inner{
+.footer__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 100px;
 }
 
-.footer__link{
+.footer__link {
   text-transform: uppercase;
   text-decoration: underline;
 }
 
-.footer__contacts-link{
+.footer__contacts-link {
   display: flex;
   align-items: center;
   cursor: pointer;
   color: #fff;
 }
 
-.footer__contacts-link + .footer__contacts-link{
+.footer__contacts-link + .footer__contacts-link {
   margin-top: 10px;
 }
 
-.footer__contacts-img{
+.footer__contacts-img {
   margin-right: 10px;
 }
