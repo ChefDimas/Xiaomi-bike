@@ -71,7 +71,7 @@ p {
 /* Bike Section */
 
 .bike {
-  padding: 100px 0 150px;
+  padding: 100px 0 0;
 }
 
 .bike__inner {
@@ -189,7 +189,7 @@ p {
 /* Info section */
 
 .info {
-  margin-bottom: 150px;
+  padding-top: 150px;
 }
 
 .info__inner {
@@ -224,7 +224,8 @@ p {
 /* Characteristics Section */
 
 .characteristics {
-  margin-bottom: 150px;
+
+  padding-top: 150px;
 }
 
 .characteristics__head {
@@ -275,7 +276,7 @@ p {
 /* Bottom slider  */
 
 .slider {
-  margin-bottom: 50px;
+  padding-top: 150px;
 }
 
 .slider__items .slick-dots {
@@ -290,7 +291,7 @@ p {
 /* Price Section */
 
 .price {
-  margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .price__inner {
@@ -432,6 +433,7 @@ p {
   background-color: #131313;
   color: #fff;
   min-height: 100px;
+  margin-top: 150px;
 }
 
 .footer__inner{
