@@ -492,6 +492,10 @@ p {
 }
 
 @media (max-width: 480px){
+  .menu {
+    margin-top: 30px;
+  }
+
   .menu__list {
     justify-content: space-between;
   }
