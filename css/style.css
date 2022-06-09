@@ -310,7 +310,7 @@ p {
 }
 
 .form__text {
-  min-width: 300px;
+  max-width: 300px;
   margin-bottom: 30px;
 }
 
@@ -465,6 +465,17 @@ p {
 
 /* Responsive design */
 
+@media (max-width: 1050px) {
+  .form_-bike-img {
+    width: 500px;
+    
+  }
+
+  .form__bike{
+    top: 45px;
+  }
+}
+
 @media (max-width: 1024px) {
   .menu {
     margin-right: 0;
@@ -551,6 +562,10 @@ p {
     object-fit: cover;
     height: 450px;
   }
+
+  .price{
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -625,13 +640,13 @@ p {
     letter-spacing: 0.8em;
   }
 
-  .slider__item{
+  .slider__item {
     padding-left: 10px;
   }
 }
 
-@media (max-width:400px){
-  .slider{
+@media (max-width: 400px) {
+  .slider {
     display: none;
   }
 }
