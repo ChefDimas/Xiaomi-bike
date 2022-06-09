@@ -252,7 +252,7 @@ p {
 }
 
 .characteristics__title {
-  padding: 2px 0 3px;
+  padding: 2px 0 3px 10px;
   text-transform: uppercase;
   background-color: #131313;
   color: #fff;
@@ -265,6 +265,7 @@ p {
 }
 
 .characteristics__name {
+  padding-left: 10px;
   flex-basis: 285px;
   padding-right: 25px;
 }
@@ -276,6 +277,10 @@ p {
 
 .slider {
   padding-top: 150px;
+}
+
+.sloder__img{
+  object-fit: cover;
 }
 
 .slider__items .slick-dots {
@@ -464,7 +469,6 @@ p {
 
 /* Responsive design */
 
-
 @media (max-width: 1024px) {
   .menu {
     margin-right: 0;
@@ -490,12 +494,62 @@ p {
     margin-bottom: 30px;
   }
 
-  .bike__column-slider{
+  .bike__column-slider {
     min-width: 100%;
     margin-left: 0;
   }
 
-  
+  .info {
+    padding-top: 50px;
+  }
+
+  .info__img {
+    display: none;
+  }
+
+  .info__list {
+    flex-basis: 100%;
+  }
+
+  .info__list-text {
+    min-width: 100%;
+  }
+
+  .characteristics{
+    padding-top: 50px;
+  }
+
+  .characteristics__head{
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .characteristics__inner {
+    flex-wrap: wrap;
+  }
+
+  .characteristics__img {
+    order: -1;
+    width: 100%;  
+    margin-bottom: 30px;
+  }
+
+  .characteristics__items{
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .characteristics__name{
+    flex-basis: 50%;
+  }
+
+  .characteristics__description{
+    flex-basis: 50%;
+  }
+
+  .slider{
+    padding-top: 70px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -520,25 +574,29 @@ p {
     padding: 25px 20px;
   }
 
-  .bike__title{
+  .bike__title {
     margin: 30px 0 5px;
     font-size: 44px;
     line-height: 57ox;
   }
 
-  .bike__subtitle{
+  .bike__subtitle {
     margin: 0 0 30px;
     font-size: 22px;
     line-height: 29px;
   }
 
-  .bike__list{
+  .bike__list {
     flex-wrap: wrap;
   }
 
-  .bike__list-item{
+  .bike__list-item {
     flex-basis: 50%;
     margin-bottom: 15px;
+  }
+
+  .info__item + .info__item {
+    padding-top: 25px;
   }
 }
 
@@ -556,8 +614,8 @@ p {
     font-size: 13px;
   }
 
-  .bike__link{
+  .bike__link {
     padding: 15px;
-    letter-spacing: .8em;
+    letter-spacing: 0.8em;
   }
 }
